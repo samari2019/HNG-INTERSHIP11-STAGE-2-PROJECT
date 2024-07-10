@@ -1,3 +1,4 @@
+// import "../index.css";
 
 function Home() {
     return (
@@ -18,11 +19,12 @@ function Home() {
                             <p>High-quality bags, carefully sorted to meet your aesthetic design
                              and functionality in everyday carry</p>
                         </div>
-
-                        <div className="white-bag">
-                            <img src="../images/white bag.jpg" alt="" />
-                        </div>
                     </div>
+
+                    <div className="white-bag">
+                        <img src="../images/white bag.jpg" alt="" />
+                    </div>
+
 
                     <div className="brown-bag">
                         <img src="../images/brown bag.jpg" alt="" />

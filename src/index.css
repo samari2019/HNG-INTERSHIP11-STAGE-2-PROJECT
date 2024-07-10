@@ -21,9 +21,6 @@
   height: 73px;
   gap: 0px;
   opacity: 0px;
-  /* position: absolute;
-  top:18px;
-  left:78px; */
 }
 
 .Links-container{
@@ -31,14 +28,12 @@ width: 443px;
 height: 15px;
 gap: 70px;
 opacity: 0px;
-/* position: absolute;
-top: 46px;
-left: 483px; */
 }
-.icons{
 
+.icons{
 font-size:29px;
 }
+
 .Search-Cart-container{
   width:118px;
   height:24px;
@@ -46,10 +41,6 @@ font-size:29px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* position: absolute;
-  top: 41px;
-  left: 1244px;
-  gap: 70px; */
 }
 
 .Links-container nav{
@@ -219,6 +210,188 @@ margin: auto;
     align-items: center;
    
   }
+  .Logo-container{
+    width: 162px;
+    height: 60px;
+    gap: 0px;
+    opacity: 0px;
+
+  }
+  
+  .Links-container{
+  width: 353px;
+  height: 15px;
+  gap: 40px;
+  opacity: 0px;
+  }
+
+  .icons{
+  font-size:29px;
+  }
+
+  .Search-Cart-container{
+    width:88px;
+    height:26.25px;
+    opacity: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  
+  .Links-container nav{
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+  .NavLink{
+   font-family: Inter;
+   font-size: 12px;
+   font-weight: 600;
+   line-height: 14.52px;
+   text-align: left;
+   color: #FFFFFF;
+   text-decoration: none;
+  }
+  
+  .Logo-container h1{
+  font-family: Playfair Display;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 59.99px;
+  color: #FFFFFF;
+  margin: auto;
+  }
+
+  .main-section{
+    background-color: #EAEAEA;
+    max-width: 100%;
+    height: 1388px;
+  
+  }
+  .Home-container1{
+    width: 100%;
+    height: 1045px;
+    position: relative;
+  }
+  
+  .black-bag{
+    width:277px;
+    height:388px;
+    position: absolute;
+    top:50px;
+    left:50px;
+  }
+  
+  .black-bag img{
+    width: 100%;
+    border-radius:20px;
+  }
+  
+  .Latest-collection{
+    width: 326px;
+    height: 800px;
+    margin-top: 136px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* position: relative; */
+    position: absolute;
+    top: -50px;
+    left: 417px;
+  
+  }
+  
+  .latest-collection-content{
+    width:326px;
+    height:124px;
+    gap: 10px;
+    opacity: 0px;
+    position: absolute;
+    top:-500;
+    left: 34px;
+  }
+  .latest-collection-content h1{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48.41px;
+    text-align: center;
+  }
+  
+  .latest-collection-content p{
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14.52px;
+    text-align: center;
+  }
+
+  .white-bag{
+    width: 277px;
+    height: 288px;
+    gap: 0px;
+    border-radius: 20px 0px 0px 0px;
+    opacity: 0px;
+    margin-top: 180px;
+    position: absolute;
+    top: 397px;
+    left:50px;
+  }
+  
+  .white-bag img{
+    width: 100%;
+    border-radius:20px;
+  }
+  
+  .brown-bag{
+    width: 324px;
+    height: 582px;
+    margin-top: -178px;
+    position: absolute;
+    top: 560px;
+    left: 460px;
+    gap: 0px;
+    border-radius: 20px 0px 0px 0px;
+    opacity: 0px;
+  }
+  
+  .brown-bag img{
+    width: 100%;
+    border-radius:20px;
+  }
+
+  .Home-container2{
+    width: 671px;
+    height: 73px;
+    gap: 20px;
+   position: absolute;
+   top:1277px;
+   left:50px;
+  }
+  
+  .h2-1{
+    font-family: Playfair Display;
+    font-size: 45px;
+    line-height: 59..99px;
+    color: #677478;
+  
+  }
+  
+  .Span-1{
+    width: 575px;
+    height: 49px;
+    font-family: Montserrat;
+    font-size: 40px;
+    line-height: 48.76px;
+    color: #677478;
+  
+  }
+  
 }
 
 /* CART CSS STYLING */

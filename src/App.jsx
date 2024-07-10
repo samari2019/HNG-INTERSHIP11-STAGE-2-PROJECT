@@ -7,6 +7,7 @@ import NewCollection from './Components/Pages/NewCollection'
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import "./index.css";
 
 function App() {
   return (
