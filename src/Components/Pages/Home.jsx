@@ -1,4 +1,4 @@
-// import "../index.css";
+// import "./index.css";
 
 function Home() {
     return (
@@ -19,12 +19,11 @@ function Home() {
                             <p>High-quality bags, carefully sorted to meet your aesthetic design
                              and functionality in everyday carry</p>
                         </div>
-                    </div>
 
-                    <div className="white-bag">
-                        <img src="../images/white bag.jpg" alt="" />
+                        <div className="white-bag">
+                            <img src="../images/white bag.jpg" alt="" />
+                        </div>
                     </div>
-
 
                     <div className="brown-bag">
                         <img src="../images/brown bag.jpg" alt="" />
@@ -33,7 +32,9 @@ function Home() {
 
                 {/* second container */}
                 <div className="Home-container2">
-                    <h2 className="h2-1">Hawvey<span className="Span-1"> Carry elegance everywhere</span></h2>
+                    <h2 className="h2-1">Hawvey
+                    <span className="Span-1"> Carry elegance everywhere</span>
+                    </h2>
                 </div>
             </section>
         </>

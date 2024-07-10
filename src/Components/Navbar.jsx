@@ -24,7 +24,7 @@ function Navbar() {
 
                 <div className="Search-Cart-container">
                     <NavLink className="NavLink icons" to="/catalog"><FaSearch /> </NavLink>
-                    <NavLink className="NavLink icons" to="/Cart"><FaShoppingCart /> </NavLink>
+                    <NavLink className="NavLink icon-large" to="/Cart"><FaShoppingCart /> </NavLink>
                 </div>
 
 

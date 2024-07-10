@@ -107,8 +107,8 @@ margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /*position: relative;
-  position: absolute;
+  position: relative;
+  /* position: absolute; 
   top: 126px;
   left: 558px; */
 
@@ -147,8 +147,8 @@ margin: auto;
   opacity: 0px;
   margin-top: 180px;
   /* position: absolute;
-  top: 305px;
-  left:50px; */
+  top: 350px;
+  left:520px; */
 }
 
 .white-bag img{
@@ -267,7 +267,7 @@ margin: auto;
   .main-section{
     background-color: #EAEAEA;
     max-width: 100%;
-    height: 1388px;
+    height: 1488px;
   
   }
   .Home-container1{
@@ -339,8 +339,8 @@ margin: auto;
     opacity: 0px;
     margin-top: 180px;
     position: absolute;
-    top: 397px;
-    left:50px;
+    top: 280px;
+    left:-370px;
   }
   
   .white-bag img{
@@ -392,6 +392,195 @@ margin: auto;
   
   }
   
+}
+
+/*Mobile devices*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .Navbar-container{
+    max-width:100%;
+    height: 80px;
+    background-color: #677478;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+  }
+  .Logo-container{
+    width: 87px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .Links-container{
+    width: 353px;
+    height: 15px;
+    gap: 40px;
+    opacity: 0px;
+    display: none;
+    }
+  
+    .icons{
+      display: none;
+      font-size:159px;
+    }
+   .icon-large{
+    font-size:59px;
+
+   }
+    .Search-Cart-container{
+      width:83px;
+      height:26.25px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+ 
+    }
+    
+    .Links-container nav{
+      display: flex;
+      justify-content: space-between;
+    
+    }
+    
+    .NavLink{
+     font-family: Inter;
+     font-size: 12px;
+     font-weight: 600;
+     line-height: 14.52px;
+     text-align: left;
+     color: #FFFFFF;
+     text-decoration: none;
+    }
+    
+    .Logo-container h1{
+    font-family: Playfair Display;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 59.99px;
+    color: #FFFFFF;
+    }
+  
+
+  .main-section{
+    background-color: #EAEAEA;
+    width: 100%;
+    height: 2088px;
+    position: relative;
+  
+  }
+  .Home-container1{
+    max-width: 100%;
+    height: 1045px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+  }
+  
+  .black-bag{
+    width:315px;
+    height:264px;
+    margin-top: 220px;
+  }
+  
+  .black-bag img{
+    width: 100%;
+    border-radius:20px;
+  }
+  
+  .Latest-collection{
+    width: 326px;
+    height: 800px;
+    margin-top: 136px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  
+  }
+  
+  .latest-collection-content{
+    width:320px;
+    height:67px;
+    gap: 10px;
+    opacity: 0px;
+    position: absolute;
+    top:-550px;
+  }
+  .latest-collection-content h1{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48.41px;
+    text-align: center;
+  }
+  
+  .latest-collection-content p{
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21.78px;
+    text-align: center;
+  }
+  
+  .white-bag{
+    width: 315px;
+    height: 390px;
+    border-radius: 20px 0px 0px 0px;
+    margin-top: 180px;
+    
+  }
+  
+  .white-bag img{
+    width: 100%;
+    border-radius:20px;
+  }
+  
+  .brown-bag{
+    width: 315px;
+    height: 485px;
+    margin-top: 178px;
+    border-radius: 20px 0px 0px 0px;
+  }
+  
+  .brown-bag img{
+    width: 100%;
+    border-radius:20px;
+  }
+  .Home-container2{
+    width: 280px;
+    height: 32px;
+    gap: 20px;
+    position: absolute;
+    top:2066;
+    left:30px;
+    display: none;
+  }
+  
+  .h2-1{
+    width:87px;
+    height:32px;
+    font-family: Playfair Display;
+    font-size: 24px;
+    line-height: 31.99px;
+    color: #677478; 
+  }
+  
+  .Span-1{
+    width: 173px;
+    height: 15px;
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 14.63px;
+    color: #677478;
+  
+  }
 }
 
 /* CART CSS STYLING */
@@ -876,8 +1065,8 @@ line-height: 14.52px;
   flex:1;
  
 }
-section{
+/* section{
   width:100%;
-  height: 1800px;
-}
+  height: 1890px;
+} */
 
