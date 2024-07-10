@@ -1,6 +1,6 @@
 *{
   margin: 0;
-  padding: 0;
+  padding: 20;
   box-sizing: border-box;
 
 }
@@ -847,34 +847,56 @@ color: #000000;
 
 
 /* CHECKOUT PAGE CSS STYLING */
+/*For small screen laptops and large screen laptops */
+@media (min-width:948px) {
+
+.Checkout-Main-section{
+ width:100%;
+ height: 1890px;
+ margin-top: -36px;
+ position: relative;
+ 
+} 
 .Checkout-h1{
-  width:194px;
+  width:196px;
   height:48px;
-  margin: auto; 
-  margin-top: 36px;
+  margin: auto;
+  padding-top: 20px;
 }
 .Checkout-h1 h1{
-  width:94px;
-  height:48px;
+  width: 196px;
+  height: 48px;
   font-family: Inter;
   font-weight: 700;
   font-size: 40px;
   line-height: 48.41px;
   color: #000000;
+  
 }
+
 hr{
   width: 100%;
   border: 1px solid #677478;
-  margin-top: 36px;
+  
 }
 .Checkout-section{
   width:100%;
-  height:1000px;
   display: flex;
+
  
+}
+.Cart-summary-2{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
 }
 .Contact-details-container{
   flex:1;
+  height: 100vh;
   position: relative;
 }
 .Contact-details-container h3{
@@ -885,9 +907,7 @@ hr{
   font-size: 24px;
   line-height: 29.05px;
   color: #000000;
-  position: absolute;
-  top:0px;
-  left:78px;
+  padding-top: 10px;
 }
 .Contact-detail{
   width:333px;
@@ -895,19 +915,16 @@ hr{
   position: absolute;
   top:77px;
   left:18px;
+
   
 }
 
-.First-Name-container, .Email-container, .Home-address-container {
+.First-Name-container, .Email-container, 
+.Home-address-container {
   width:331px;
   height:79px;
   display: flex;
   flex-direction: column;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  /* position: absolute;
-  top:70px;
-  left:78px; */
   gap:10px;
 }
 
@@ -925,6 +942,7 @@ hr{
   height:40px;
   border: 1px solid #000000;
   border-radius:20px;
+  background-color: transparent;
 
 }
 .Contact-detail-2{
@@ -939,8 +957,6 @@ hr{
   height:79px;
   display: flex;
   flex-direction: column;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 .Contact-detail-2 label{
   width:331px;
@@ -956,17 +972,19 @@ hr{
   height:40px;
   border: 1px solid #000000;
   border-radius:20px;
+  background-color: transparent;
 
 }
 
 .delivery-method-container{
   width:100%;
-  height:400px;
+  height:20px;
   position:absolute;
   top:381px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 30px;
   
 }
 .delivery-method-container h3{
@@ -977,8 +995,9 @@ hr{
   font-size: 24px;
   line-height: 29.05px;
   color: #000000;
-  margin-left: -62px;
+  padding-top: 10px;
   
+ 
 }
 .delivery-method-container div{
   width:706px;
@@ -987,8 +1006,10 @@ hr{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 50px;
-  margin-left: 12px;
+  margin-top: 20px;
+  margin-left: 8px;
+
+  
 }
 .delivery-method-container label{
   width:706px;
@@ -1004,6 +1025,7 @@ hr{
   height:40px;
   border: 1px solid #000000;
   border-radius:20px;
+  background-color: transparent;
 }
 .delivery-method-container placeholder{
   width: 180px;
@@ -1018,13 +1040,14 @@ line-height: 14.52px;
 }
 .Shipping-details{
   width:100%;
-  height:400px;
+  height:250px;
   position:absolute;
-  top:781px;
+  top:241px;
+
   
 }
 .Shipping-details h3{
-  width:200px;
+  width:191px;
   height:27px;
   font-family: Inter;
   font-weight: 600;
@@ -1034,6 +1057,202 @@ line-height: 14.52px;
   margin-left: -62px; 
 }
 
+.cart-main-container{
+ width: 500px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ gap: 20px;
+}
+.cart-summary-2{
+  width:474px;
+  height:239px;
+  border-bottom: 1px solid #677478;
+
+}
+.cart-summary-3{
+  width:474px;
+  height:239px;
+  
+}
+.cart-summary-4{
+  width:474px;
+  height:239px;
+  
+}
+.cart-summary-5{
+  width:474px;
+  height:182px;
+  /* background-color: red; */
+}
+.Zaraco-container-2{
+  width:474px;
+  height:156px;
+  gap:11px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.img-2{
+  width:166px;
+  height:156px;
+ 
+
+}
+.img-2 img{
+  width:100%;
+  height:100%;
+  border-radius: 20px;
+}
+.yellow-bag-description2{
+  width:211px;
+  height:138px;
+  gap:20px;
+  
+}
+.h3-2{
+  width:211px;
+  height:22px;
+  font-family: Inter;
+  font-weight:500;
+  font-size:18px;
+  line-height:21.78px;
+  margin-bottom: 10px;
+}
+
+.Art-2{
+  width:211px;
+  height:22px;
+  font-family: Inter;
+  font-weight:300;
+  font-size:18px;
+  line-height:21.78px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.Colour2{
+  width:211px;
+  height:22px;
+  font-family: Inter;
+  font-weight:300;
+  font-size:18px;
+  line-height:29.05px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.Quality2{
+  width:211px;
+  height:22px;
+  font-family: Inter;
+  font-weight:300;
+  font-size:18px;
+  line-height:21.78px;
+  color: #000000;
+
+}
+.price-container-2{
+  width:77px;
+  height:22px;
+  margin-top: -155px;
+ 
+
+}
+.price-2{
+  font-family: Inter;
+  font-weight:700;
+  font-size:18px;
+  line-height:21.78px;
+  color: #000000;
+}
+.remove-container-2{
+  width:211px;
+  height:73px;
+  gap:90px;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  margin-top: -35px;
+ 
+}
+
+.add-con{
+  width:91px;
+  height:42px;
+  gap:10px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+ 
+ 
+ 
+
+}
+.num-1{
+ width:49px;
+ height:42px;
+ border: 1px solid #000000;
+ padding: 10px, 20px, 10px, 20px;
+ border-radius: 20px;
+ gap:10px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.78px;
+text-align: left;
+
+
+
+ 
+}
+.sub{
+width:13px;
+height:22px;
+font-family: Inter;
+font-weight:600;
+font-size:18px;
+line-height:21.78px;
+color: #000000;
+
+}
+/* .add-sub{
+  width:109px;
+  height:29px;
+  font-family: Inter;
+  font-weight:600;
+  font-size:24px;
+  line-height:29.05px;
+  color: #000000;
+} */
+.Remove-2{
+  width:110px;
+  height:42px;
+  padding:10px, 20px, 10px, 20px;
+  border-radius: 20px;
+  gap:10px;
+  background-color: #677478;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Remove-2 h2{
+  width:70px;
+  height:22px;
+  font-family: Inter;
+  font-weight:600;
+  font-size:15px;
+  line-height:21.78px;
+  color: #FFFFFF;
+  text-align: center;
+}
+/*
 .payment-details{
   width:100%;
   height:500px;
@@ -1060,13 +1279,4 @@ line-height: 14.52px;
   justify-content: center;
   margin-top: 50px;
   margin-left: 12px;
-}
-.Cart-summary-2{
-  flex:1;
- 
-}
- section{
-  width:100%;
-  height: 1890px;
-} 
-
+} */
