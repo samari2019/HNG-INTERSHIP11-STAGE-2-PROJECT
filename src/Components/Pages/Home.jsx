@@ -1,5 +1,4 @@
-// import "./index.css";
-
+import "../Pages/style.css";
 function Home() {
     return (
         <>
