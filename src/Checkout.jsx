@@ -1,18 +1,20 @@
-
+import "./index.css";
 function Checkout() {
     return (
         <>
-            <section className=" Checkout-Main-section">
+            <section className="Checkout-Main-section ">
                 <div className="Checkout-h1">
                     <h1>Checkout</h1>
                 </div>
                 <hr />
                 <div className="Checkout-section">
+
                     <div className="Contact-details-container">
                         <h3>Contact details</h3>
 
-                        <form>
+                        <form method="POST">
                             <div className="Contact-detail">
+
                                 <div className="First-Name-container">
                                     <label className="First-Name-Label">First Name</label>
                                     <input className="First-Name" type="text" name="" placeholder=" " />
@@ -49,9 +51,9 @@ function Checkout() {
                         <div className="delivery-method-container">
                             <h3>Delivery method</h3>
 
-                            <div>
+                            <div className="delivery-cont1">
                                 <label>Express delivery</label>
-                                <input type="text" name="" placeholder="Express delivery (1-2 days) $15 " />
+                                <input className="delivery-input" type="text" name="" placeholder="Express delivery (1-2 days) $15 " />
                             </div>
 
                             <div>
@@ -136,6 +138,7 @@ function Checkout() {
 
                         </form>*/}
                     </div>
+
                     <div className="Cart-summary-2">
                         <div className="cart-main-container">
                             <div className="cart-summary-2">

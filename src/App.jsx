@@ -1,9 +1,9 @@
 import Home from './Components/Pages/Home';
 import About from './Components/Pages/About';
-import Checkout from './Components/Pages/Checkout';
+import Checkout from './Checkout';
 import Contact from './Components/Pages/Contact';
 // import Catalog from './Components/Pages/Catalog';
-import Cart from './Components/Pages/Cart';
+import Cart from './Cart';
 import NewCollection from './Components/Pages/NewCollection'
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
