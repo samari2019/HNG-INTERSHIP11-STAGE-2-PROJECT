@@ -1,3 +1,7 @@
+.NewCollection-section{
+width:100%;
+height:3250px;
+}
 .New-Collection-h1{
     width:326px;
     height:48px;
@@ -116,7 +120,8 @@ hr{
 }
 
 .Popular-Items-h1{
-    margin-top: 64px;
+    margin-top: 84px;
+    margin-bottom: 50px;
     Font-family:Inter;
     font-weight:700;
     font-size:40px;
@@ -130,53 +135,102 @@ hr{
     display: flex;
     justify-content: space-around;
     margin-top: 64px;
-    background-color: bisque;
+  
+  
 }
 
 .Item-1{
     width:277px;
     height:391px;
     gap:36px;
-    background-color: #ffffff;
+   
 }
 
 .Zaraco-bag1{
     width:256px;
     height:225px;
-    text-align: center;
-    margin: auto;
+    text-align: center;   
 }
 
 .Zaraco-bag1 img{
-    MAX-width:100%;
+    max-width:100%;
     height: 225px;
 }
+.Zaraco-bag-description{
+    width:277px;
+    height:51px;
+    text-align: center;
+}
+.Zaraco-bag-description h3{
+    font-family: Inter;
+    font-weight:400;
+    font-size:24px;
+    line-height:29.05px;
+}
+.Zaraco-bag-description span{
+    font-family: Inter;
+    font-weight:700;
+    font-size:24px;
+    line-height:29.05px;
+}
+.Zaraco-bag-description p{
+    width:277px;
+    height:22px;
+    font-family: Inter;
+    font-weight:300;
+    font-size:16px;
+    line-height:21.78px;
+}
+.Zaraco-bag-addToCart{
+    width:225px;
+    height:69px;
+    padding:20px,30px,20px,30px;
+    gap:10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Zaraco-bag-addToCart button{
+    width:220px;
+    height:69px;
+    font-family: Inter;
+    font-weight:600;
+    font-size:24px;
+    line-height:29.05px;
+    color:#FFFFFF;
+    background-color: #677478;
+    border-radius:20px;
+    padding:20px,30px,20px,30px;
+    border: none;
 
+}
 .Item-2{
     width:277px;
     height:391px;
     gap:36px;
-    background-color: rgb(255, 0, 64);
+
 }
 
 .Item-3{
     width:277px;
     height:391px;
     gap:36px;
-    background-color: blue;
+    
 }
 
 .Item-4{
     width:277px;
     height:391px;
     gap:36px;
-    background-color: green;
+
 }
 
 .Instagram-photos{
     width: 1284px;
     height:500px;
-    background-color: #045353;
     display: flex;
     justify-content: space-around;
     margin: auto;
@@ -185,8 +239,6 @@ hr{
 .Instagram-photo1{
     width:405px;
     height:496px;
-    background-color: crimson;
-    border: 2px solid black;
 }
 .Instagram-photo1 img{
     width:100%;
@@ -197,8 +249,7 @@ hr{
     width: 793px;
     height: 73px;
     gap: 20px;
-    margin: 30px, 100px, 0px, 0px;
-
+    margin-top:40px;
   }
   
   .h2-1{
