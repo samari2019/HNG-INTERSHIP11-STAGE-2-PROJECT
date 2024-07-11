@@ -12,7 +12,7 @@ function Footer() {
 
                 <div className="footer-sub-container-2">
                     <a href="">Sales</a>
-                    <a href="">Catalog</a>
+                    <a href=" http://localhost:3000/NewCollection">Catalog</a>
                     <a href="">Contact</a>
 
                 </div>
