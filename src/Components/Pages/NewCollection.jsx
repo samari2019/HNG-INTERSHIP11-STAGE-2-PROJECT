@@ -1,4 +1,5 @@
-import "../newCollection.css";
+import "./newCollection.css";
+
 
 function NewCollection() {
     return (
