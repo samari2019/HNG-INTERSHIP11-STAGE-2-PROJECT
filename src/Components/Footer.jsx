@@ -1,4 +1,5 @@
 import "../footer.css";
+import { NavLink } from 'react-router-dom';
 function Footer() {
     return (
         <>
@@ -12,7 +13,7 @@ function Footer() {
 
                 <div className="footer-sub-container-2">
                     <a href="">Sales</a>
-                    <a href=" http://localhost:3000/NewCollection">Catalog</a>
+                    <a href=""><NavLink className="NavLink checkout-link" to="/NewCollection">Catalog</NavLink></a>
                     <a href="">Contact</a>
 
                 </div>
