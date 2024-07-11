@@ -20,14 +20,12 @@
   width: 198px;
   height: 73px;
   gap: 0px;
-  opacity: 0px;
 }
 
 .Links-container{
 width: 443px;
 height: 15px;
 gap: 70px;
-opacity: 0px;
 }
 
 .icons{
@@ -37,7 +35,6 @@ font-size:29px;
 .Search-Cart-container{
   width:118px;
   height:24px;
-  opacity: 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -103,7 +100,6 @@ margin: auto;
   margin-top: 136px;
   gap: 0px;
   border-radius: 20px;
-  opacity: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -118,7 +114,6 @@ margin: auto;
   width:326px;
   height:124px;
   gap: 10px;
-  opacity: 0px;
   /* position: absolute;
   top:0;
   left: 34px; */
@@ -144,7 +139,6 @@ margin: auto;
   height: 388px;
   gap: 0px;
   border-radius: 20px 0px 0px 0px;
-  opacity: 0px;
   margin-top: 180px;
   /* position: absolute;
   top: 350px;
@@ -165,7 +159,7 @@ margin: auto;
   left: 888px; */
   gap: 0px;
   border-radius: 20px 0px 0px 0px;
-  opacity: 0px;
+
 }
 
 .brown-bag img{
@@ -214,7 +208,7 @@ margin: auto;
     width: 162px;
     height: 60px;
     gap: 0px;
-    opacity: 0px;
+
 
   }
   
@@ -222,7 +216,6 @@ margin: auto;
   width: 353px;
   height: 15px;
   gap: 40px;
-  opacity: 0px;
   }
 
   .icons{
@@ -232,7 +225,6 @@ margin: auto;
   .Search-Cart-container{
     width:88px;
     height:26.25px;
-    opacity: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -295,7 +287,6 @@ margin: auto;
     margin-top: 136px;
     gap: 0px;
     border-radius: 20px;
-    opacity: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -310,7 +301,6 @@ margin: auto;
     width:326px;
     height:124px;
     gap: 10px;
-    opacity: 0px;
     position: absolute;
     top:-500;
     left: 34px;
@@ -336,7 +326,6 @@ margin: auto;
     height: 288px;
     gap: 0px;
     border-radius: 20px 0px 0px 0px;
-    opacity: 0px;
     margin-top: 180px;
     position: absolute;
     top: 280px;
@@ -357,7 +346,6 @@ margin: auto;
     left: 460px;
     gap: 0px;
     border-radius: 20px 0px 0px 0px;
-    opacity: 0px;
   }
   
   .brown-bag img{
@@ -369,9 +357,9 @@ margin: auto;
     width: 671px;
     height: 73px;
     gap: 20px;
-   position: absolute;
-   top:1277px;
-   left:50px;
+    position: absolute;
+    top:1277px;
+    left:50px;
   }
   
   .h2-1{
@@ -417,7 +405,6 @@ margin: auto;
     width: 353px;
     height: 15px;
     gap: 40px;
-    opacity: 0px;
     display: none;
     }
   
@@ -497,7 +484,6 @@ margin: auto;
     margin-top: 136px;
     gap: 0px;
     border-radius: 20px;
-    opacity: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -509,7 +495,6 @@ margin: auto;
     width:320px;
     height:67px;
     gap: 10px;
-    opacity: 0px;
     position: absolute;
     top:-550px;
   }

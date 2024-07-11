@@ -12,7 +12,6 @@
     width: 365px;
     height: 129px;
     gap: 10px;
-    opacity: 0px;
     display:flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -24,14 +23,12 @@
 width: 365px;
 height: 29px;
 gap: 60px;
-opacity: 0px;
 display: flex;
 justify-content: space-between;
 }
 
 .footer-sub-container-2 a{
 gap: 0px;
-opacity: 0px;
 font-family: Inter;
 font-size: 24px;
 font-weight: 500;
@@ -43,7 +40,6 @@ text-decoration: none;
 .footer-sub-container-3{
     width: 365px;
     height: 159px;
-    opacity: 0px;
     gap: 60px;
     display: flex;
     flex-direction: column;
@@ -79,7 +75,6 @@ text-align: left;
 width: 62px;
 height: 29px;
 gap: 0px;
-opacity: 0px;
 
 
 }
@@ -100,7 +95,6 @@ line-height: 29.05px;
 width: 209px;
 height: 30px;
 gap: 0px;
-opacity: 0px;
 color: #FFFFFF;
 font-family: Inter;
 font-size: 12px;
@@ -161,7 +155,6 @@ text-align: center;
     .footer-sub-container-3{
         width: 315px;
         height: 159px;
-        opacity: 0px;
         gap: 20px;
         display: flex;
         flex-direction: column;
@@ -200,16 +193,12 @@ text-align: center;
     width: 62px;
     height: 29px;
     gap: 0px;
-    opacity: 0px;
-    
-    
     }
     
     .footer-sub-container-1 h2{
     width: 209px;
     height: 29px;
     gap: 0px;
-    opacity: 0px;
     color: #FFFFFF;
     font-family: Inter;
     font-size: 24px;
@@ -221,7 +210,6 @@ text-align: center;
     width: 209px;
     height: 30px;
     gap: 0px;
-    opacity: 0px;
     color: #FFFFFF;
     font-family: Inter;
     font-size: 12px;
@@ -285,7 +273,6 @@ text-align: center;
     .footer-sub-container-3{
         width: 315px;
         height: 159px;
-        opacity: 0px;
         gap: 20px;
         display: flex;
         flex-direction: column;
