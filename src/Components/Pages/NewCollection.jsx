@@ -65,7 +65,7 @@ function NewCollection() {
                 </div>
 
                 <div className="Zacro-bag2">
-                    <img src="../images/Zacro bag3.jpg" alt="" />
+                    <img src="../images/Zacro bag3.png" alt="" />
                 </div>
             </div>
 
