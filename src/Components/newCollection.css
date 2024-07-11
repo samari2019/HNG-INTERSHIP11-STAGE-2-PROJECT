@@ -23,7 +23,7 @@ height:3250px;
 }
 
 .Collection-1{
-width: 1284px;
+width: 100%;
 height: 480px;
 gap: 125px;
 margin: auto;
@@ -92,7 +92,7 @@ hr{
 }
 
 .Collection-2{
-    width:1284px;
+    width:100%;
     height:480px;
     margin: auto;
     margin-top: 64px;
@@ -113,7 +113,7 @@ hr{
 }
 
 .Collection-3{
-    width:1284px;
+    width:100%;
     height:480px;
     margin: auto;
     margin-top: 64px;
