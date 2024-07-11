@@ -83,7 +83,6 @@ gap: 0px;
 width: 92px;
 height: 29px;
 gap: 0px;
-opacity: 0px;
 color: #FFFFFF;
 font-family: Inter;
 font-size: 24px;
@@ -110,9 +109,6 @@ text-align: center;
         width: 100%;
         height: 297px;
         background-color: #677478;
-        /* display: flex;
-        justify-content: space-around;
-        align-items: center; */
         position: relative;
     
     }
@@ -135,7 +131,6 @@ text-align: center;
     width: 325px;
     height: 29px;
     gap: 40px;
-    opacity: 0px;
     display: flex;
     justify-content: space-between;
     position: absolute;

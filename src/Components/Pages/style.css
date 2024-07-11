@@ -47,7 +47,7 @@
   }
   
   .NavLink{
-    font-family: Inter;
+   font-family: Inter;
    font-size: 12px;
    font-weight: 600;
    line-height: 14.52px;
@@ -76,7 +76,7 @@
     height: 1045px;
     display: flex;
     justify-content: space-evenly;
-    /* position: relative; */
+  
     
   }
   
@@ -84,9 +84,7 @@
     width:427px;
     height:538px;
     margin-top: 150px;
-    /* position: absolute;
-    top:150px;
-    left:78px; */
+    
   }
   
   .black-bag img{
@@ -104,19 +102,12 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    /* position: absolute; 
-    top: 126px;
-    left: 558px; */
-  
   }
   
   .latest-collection-content{
     width:326px;
     height:124px;
     gap: 10px;
-    /* position: absolute;
-    top:0;
-    left: 34px; */
   }
   .latest-collection-content h1{
     font-family: Inter;
@@ -140,9 +131,6 @@
     gap: 0px;
     border-radius: 20px 0px 0px 0px;
     margin-top: 180px;
-    /* position: absolute;
-    top: 350px;
-    left:520px; */
   }
   
   .white-bag img{
@@ -154,12 +142,7 @@
     width: 474px;
     height: 732px;
     margin-top: 178px;
-    /* position: absolute;
-    top: 178px;
-    left: 888px; */
-    gap: 0px;
     border-radius: 20px 0px 0px 0px;
-    opacity: 0px;
   }
   
   .brown-bag img{
@@ -207,8 +190,6 @@
     .Logo-container{
       width: 162px;
       height: 60px;
-      gap: 0px;
-  
     }
     
     .Links-container{
@@ -289,7 +270,6 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      /* position: relative; */
       position: absolute;
       top: -50px;
       left: 417px;

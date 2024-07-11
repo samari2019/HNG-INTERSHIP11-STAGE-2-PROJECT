@@ -76,17 +76,12 @@ margin: auto;
   height: 1045px;
   display: flex;
   justify-content: space-evenly;
-  /* position: relative; */
-  
 }
 
 .black-bag{
   width:427px;
   height:538px;
   margin-top: 150px;
-  /* position: absolute;
-  top:150px;
-  left:78px; */
 }
 
 .black-bag img{
@@ -104,19 +99,12 @@ margin: auto;
   flex-direction: column;
   align-items: center;
   position: relative;
-  /* position: absolute; 
-  top: 126px;
-  left: 558px; */
-
 }
 
 .latest-collection-content{
   width:326px;
   height:124px;
   gap: 10px;
-  /* position: absolute;
-  top:0;
-  left: 34px; */
 }
 .latest-collection-content h1{
   font-family: Inter;
@@ -140,9 +128,6 @@ margin: auto;
   gap: 0px;
   border-radius: 20px 0px 0px 0px;
   margin-top: 180px;
-  /* position: absolute;
-  top: 350px;
-  left:520px; */
 }
 
 .white-bag img{
@@ -154,10 +139,6 @@ margin: auto;
   width: 474px;
   height: 732px;
   margin-top: 178px;
-  /* position: absolute;
-  top: 178px;
-  left: 888px; */
-  gap: 0px;
   border-radius: 20px 0px 0px 0px;
 
 }
@@ -207,9 +188,6 @@ margin: auto;
   .Logo-container{
     width: 162px;
     height: 60px;
-    gap: 0px;
-
-
   }
   
   .Links-container{
@@ -234,7 +212,6 @@ margin: auto;
   .Links-container nav{
     display: flex;
     justify-content: space-between;
-  
   }
   
   .NavLink{
@@ -290,11 +267,9 @@ margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* position: relative; */
     position: absolute;
     top: -50px;
     left: 417px;
-  
   }
   
   .latest-collection-content{
@@ -344,7 +319,6 @@ margin: auto;
     position: absolute;
     top: 560px;
     left: 460px;
-    gap: 0px;
     border-radius: 20px 0px 0px 0px;
   }
   
@@ -463,8 +437,6 @@ margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    
   }
   
   .black-bag{
@@ -482,7 +454,6 @@ margin: auto;
     width: 326px;
     height: 800px;
     margin-top: 136px;
-    gap: 0px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -547,7 +518,6 @@ margin: auto;
     left:30px;
     display: none;
   }
-  
   .h2-1{
     width:87px;
     height:32px;
@@ -875,9 +845,7 @@ hr{
   display: flex;
   flex-direction: column;
   align-items: center;
- 
 }
-
 }
 .Contact-details-container{
   flex:1;
@@ -1171,11 +1139,6 @@ line-height: 14.52px;
  display: flex;
  justify-content: center;
  align-items: center;
- 
- 
- 
- 
-
 }
 .num-1{
  width:49px;
