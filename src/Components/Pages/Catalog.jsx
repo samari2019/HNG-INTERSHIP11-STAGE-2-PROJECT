@@ -1,9 +1,9 @@
-function Catalog() {
-    return (
-        <div>
+// function Catalog() {
+//     return (
+//         <div>
 
-        </div>
-    )
-}
+//         </div>
+//     )
+// }
 
-export default Catalog
+// export default Catalog
