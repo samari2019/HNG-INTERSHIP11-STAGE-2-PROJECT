@@ -188,12 +188,13 @@ margin: auto;
   .Logo-container{
     width: 162px;
     height: 60px;
+    
   }
   
   .Links-container{
-  width: 353px;
+  width: 473px;
   height: 15px;
-  gap: 40px;
+  
   }
 
   .icons{
@@ -206,12 +207,16 @@ margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
   
   }
   
   .Links-container nav{
+    width:470px;
+    height: 20px;
     display: flex;
     justify-content: space-between;
+    
   }
   
   .NavLink{
@@ -222,6 +227,7 @@ margin: auto;
    text-align: left;
    color: #FFFFFF;
    text-decoration: none;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
   }
   
   .Logo-container h1{
@@ -332,9 +338,10 @@ margin: auto;
     width: 671px;
     height: 73px;
     gap: 20px;
-    position: absolute;
-    top:1277px;
-    left:50px;
+    /* position: absolute;
+    top:677px;
+    left:50px; */
+  
    
   }
   
@@ -1836,5 +1843,1013 @@ color: #000000;
   color: #FFFFFF;
   text-align: center;
 }
+}
+
+/* For ipad and tablet devices */
+@media (min-width: 481px) and (max-width: 947px){
+  .Checkout-Main-section{
+    width:100%;
+    height:2700px;
+    position: relative;
+    
+   } 
+   .Checkout-h1{
+     width:194px;
+     height:48px;
+     margin: auto;
+    padding-top: 20px;
+   }
+   .Checkout-h1 h1{
+     width: 194px;
+     height: 48px;
+     font-family: Inter;
+     font-weight: 700;
+     font-size: 40px;
+     line-height: 48.41px;
+     color: #000000;
+     
+   }
+   
+   hr{
+     width: 100%;
+     border: 1px solid #677478; 
+   }
+   .Checkout-section{
+     width:100%;
+     display: flex;
+     flex-direction: column;
+   
+   }
+   .Cart-summary-2{
+     display: flex;
+     
+     flex-direction: column;
+     align-items: flex-start;
+     padding-left: 25px;
+    
+   }
+   
+   .Contact-details-container{
+     width: 100%;
+     height: 1320px;
+     position: relative;
+     
+   }
+   .First-contact-container{
+     width:100%;
+     height:250px;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 20px;
+     padding-left: 25px;
+     
+   }
+   .Contact-details-container h3{
+     font-family: Inter;
+     font-weight: 600;
+     font-size: 24px;
+     line-height: 29.05px;
+     color: #000000;
+     padding-top: 10px;
+     padding-left: 25px;
+ 
+   }
+   .Contact-detail{
+     width:331px;
+     height:228px;
+   }
+   
+   .First-Name-container, .Email-container, 
+   .Home-address-container {
+     width:312px;
+     height:79px;
+     display: flex;
+     flex-direction: column;
+     gap:20;
+   
+   }
+   
+   .Contact-detail label{
+     font-family: Inter;
+     font-weight: 300;
+     font-size: 20px;
+     line-height: 29.05px;
+     color: #000000;
+   }
+   .Contact-detail input{
+     width:312px;
+     height:40px;
+     border: 1px solid #000000;
+     border-radius:20px;
+     background-color: transparent;
+   
+   }
+   .Contact-detail-2{
+     width:331px;
+     height:228px;
+    
+   
+   }
+   .Contact-detail-2 div {
+     width:312px;
+     height:79px;
+     gap:20;
+   }
+   .Contact-detail-2 label{
+     font-family: Inter;
+     font-weight: 300;
+     font-size: 20px;
+     line-height: 29.05px;
+     color: #000000;
+   }
+   .Contact-detail-2 input{
+     width:312px;
+     height:40px;
+     border: 1px solid #000000;
+     border-radius:20px;
+     background-color: transparent;
+   }
+   
+   .delivery-method-container{
+     width:100%;
+     height:250px;
+     margin-top: 10px;
+     padding-left: 25px;
+     
+   }
+   .delivery-method-container h3{
+     font-family: Inter;
+     font-weight: 600;
+     font-size: 24px;
+     line-height: 29.05px;
+     color: #000000;
+     padding-top: 10px;
+    
+   }
+   .delivery-cont1{
+     width:640px;
+     height:70px;
+     gap:5px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin-top: 30px;
+   
+   }
+   .Standard-delivery{
+     width:640px;
+     height:70px;
+     gap:5px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin-top: 20px;
+   }
+   .delivery-method-container label{
+     width:626px;
+     height:29px;
+     font-family:Inter;
+     font-weight:300px;
+     font-size:20px;
+     line-height:29.05px;
+     color: #000000;
+   }
+   .delivery-method-container input{
+     width:640px;
+     height:40px;
+     border: 1px solid #000000;
+     border-radius:20px;
+     background-color: transparent;
+   }
+   .delivery-method-container placeholder{
+   width: 180px;
+   height: 15px;
+   font-family: Inter;
+   font-size: 12px;
+   font-weight: 500;
+   line-height: 14.52px;
+   
+   }
+   .Shipping-details{
+     width:100%;
+     height:220px;
+     margin-top: 10px;
+     padding-left: 25px;
+
+   }
+   
+   .Shipping-details h3{
+     font-family: Inter;
+     font-weight: 600;
+     font-size: 24px;
+     line-height: 29.05px;
+     color: #000000;
+    
+   }
+   
+   .payment-details{
+     width:100%;
+     height:500px;
+     margin-top: 20px;
+     padding-left: 25px;  
+   }
+   
+   .payment-details h3{
+     font-family: Inter;
+     font-weight: 600;
+     font-size: 24px;
+     line-height: 29.05px;
+     color: #000000;
+     
+   }
+   .Card-type{
+     width:640px;
+     height:70px;
+     gap:5px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin-top: 30px;
+   }
+   .Card-type label{
+     width:626px;
+     height:29px;
+     font-family:Inter;
+     font-weight:300px;
+     font-size:20px;
+     line-height:29.05px;
+     color: #000000;
+   }
+   .Card-type input{
+     width:626px;
+     height:40px;
+     border: 1px solid #000000;
+     border-radius:20px;
+     background-color: transparent;
+   }
+   .Card-detail{
+     width:100%;
+     height:150px;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 20px;
+   }
+   .Visa{
+     width:626px;
+     height:40px;
+     gap:10px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+   }
+   .Visa input{
+     width:640px;
+     height:40px;
+     border: 1px solid #000000;
+     border-radius:20px;
+     padding:5px,9px,5px,9px;
+     background-color: transparent;
+   }
+   
+   a{
+     width:460px;
+     height:22px;
+     font-family:Inter;
+     font-weight:400px;
+     font-size:18px;
+     line-height:21.78px;
+     color: #000000;
+     text-decoration:none;
+     padding-left: 5px;
+   
+   
+   }
+   .cart-main-container{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+   }
+   .cart-summary-2{
+     width:474px;
+     height:269px;
+     border-bottom: 1px solid #677478;
+   
+   }
+   .cart-summary-3{
+     width:474px;
+     height:269px;
+     border-bottom: 1px solid #677478;
+     margin-top: 25px;
+     
+   }
+   .cart-summary-4{
+     width:474px;
+     height:269px;
+     border-bottom: 1px solid #677478;
+     margin-top: 25px;
+     
+   }
+   .cart-summary-5{
+     width:474px;
+     height:382px;
+     display: flex;
+     margin-top: 25px;
+     justify-content: center;
+     align-items: center;
+    
+     
+   }
+   .Zaraco-container-2{
+     width:474px;
+     height:156px;
+     gap:11px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin-top: 30px;
+   }
+   
+   .img-2{
+     width:166px;
+     height:156px;
+    
+   }
+   .img-2 img{
+     width:100%;
+     height:100%;
+     border-radius: 20px;
+   }
+   .yellow-bag-description2{
+     width:211px;
+     height:138px;
+     gap:20px;
+     
+   }
+   .h3-2{
+     width:211px;
+     height:22px;
+     font-family: Inter;
+     font-weight:500;
+     font-size:18px;
+     line-height:21.78px;
+     margin-bottom: 10px;
+   }
+   
+   .Art-2{
+     width:211px;
+     height:22px;
+     font-family: Inter;
+     font-weight:300;
+     font-size:18px;
+     line-height:21.78px;
+     color: #000000;
+     margin-bottom: 10px;
+   }
+   
+   .Colour2{
+     width:211px;
+     height:22px;
+     font-family: Inter;
+     font-weight:300;
+     font-size:18px;
+     line-height:29.05px;
+     color: #000000;
+     margin-bottom: 10px;
+   }
+   
+   .Quality2{
+     width:211px;
+     height:22px;
+     font-family: Inter;
+     font-weight:300;
+     font-size:18px;
+     line-height:21.78px;
+     color: #000000;
+   
+   }
+   .price-container-2{
+     width:77px;
+     height:22px;
+     margin-top: -155px;
+
+   }
+   .price-2{
+     font-family: Inter;
+     font-weight:700;
+     font-size:18px;
+     line-height:21.78px;
+     color: #000000;
+   }
+   .remove-container-2{
+     height:73px;
+     gap:90px;
+     display: flex;
+     justify-content:space-between;
+     align-items: center;
+     margin-top: 5px;
+    
+    
+   }
+   
+   .add-con{
+     width:91px;
+     height:42px;
+     gap:10px;
+     display: flex;
+     margin-left: 170px;
+    justify-content: center;
+    align-items: center;
+   }
+   .num-1{
+    width:49px;
+    height:42px;
+    border: 1px solid #000000;
+    padding: 10px, 20px, 10px, 20px;
+    border-radius: 20px;
+    gap:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 21.78px;
+   text-align: left;
+    
+   }
+   .sub{
+   width:13px;
+   height:22px;
+   font-family: Inter;
+   font-weight:600;
+   font-size:18px;
+   line-height:21.78px;
+   color: #000000;
+   
+   }
+   
+   .Remove-2{
+     width:110px;
+     height:42px;
+     padding:10px, 20px, 10px, 20px;
+     border-radius: 20px;
+     gap:10px;
+     background-color: #677478;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   .Remove-2 h2{
+     width:70px;
+     height:22px;
+     font-family: Inter;
+     font-weight:600;
+     font-size:15px;
+     line-height:21.78px;
+     color: #FFFFFF;
+     text-align: center;
+   }
+   .Checkout-1{
+     width: 100%;
+    height:49px;
+    background-color: #677478;
+    padding:10px, 20px, 10px, 20px;
+    border-radius:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .Checkout-1 checkout-link{
+    width:113px;
+    height:29px;
+    font-family: Inter;
+    font-weight:600;
+    font-size:24px;
+    line-height:29.05px;
+    color: #FFFFFF;
+  }
+}
+/*Mobile devices*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .Checkout-Main-section{
+    width:100%;
+    height:3200px;
+    position: relative;
+    
+   } 
+   .Checkout-h1{
+     width:133px;
+     height:26px;
+     margin: auto;
+     padding-top: 20px;
+   }
+   .Checkout-h1 h1{
+     width: 133px;
+     height: 26px;
+     font-family: Inter;
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 29.05px;
+     color: #000000;
+     
+   }
+   
+   hr{
+     width: 100%;
+     border: 1px solid #677478; 
+   }
+   .Checkout-section{
+     width:100%;
+     height:3100px;
+     display: flex;
+     flex-direction: column;
+   }
+   .Cart-summary-2{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 15px; 
+   }
+   
+   .Contact-details-container{
+     width: 100%;
+     height: 1920px;
+     position: relative;
+     
+   }
+   .First-contact-container{
+     width:100%;
+     height:250px;
+     display: flex;
+     flex-direction: column;
+     margin-top: 20px;
+     padding-left: 25px;
+     
+   }
+   .Contact-details-container h3{
+     font-family: Inter;
+     font-weight: 600;
+     font-size: 24px;
+     line-height: 29.05px;
+     color: #000000;
+     padding-top: 10px;
+     padding-left: 25px;
+ 
+   }
+   .Contact-detail{
+     width:331px;
+     height:228px;
+   }
+   
+   .First-Name-container, .Email-container, 
+   .Home-address-container {
+     width:312px;
+     height:79px;
+     display: flex;
+     flex-direction: column;
+     gap:20;
+   
+   }
+   
+   .Contact-detail label{
+     font-family: Inter;
+     font-weight: 300;
+     font-size: 20px;
+     line-height: 29.05px;
+     color: #000000;
+   }
+   .Contact-detail input{
+     width:312px;
+     height:40px;
+     border: 1px solid #000000;
+     border-radius:20px;
+     background-color: transparent;
+   
+   }
+   .Contact-detail-2{
+     width:331px;
+     height:228px;
+  
+   }
+   .Contact-detail-2 div {
+     width:312px;
+     height:79px;
+     gap:20;
+   }
+   .Contact-detail-2 label{
+     font-family: Inter;
+     font-weight: 300;
+     font-size: 20px;
+     line-height: 29.05px;
+     color: #000000;
+   }
+   .Contact-detail-2 input{
+     width:312px;
+     height:40px;
+     border: 1px solid #000000;
+     border-radius:20px;
+     background-color: transparent;
+   }
+   
+   .delivery-method-container{
+     width:100%;
+     height:260px;
+     position: absolute;
+     top:541px;
+     padding-left: 25px;
+     
+   }
+   .delivery-method-container h3{
+     font-family: Inter;
+     font-weight: 600;
+     font-size: 24px;
+     line-height: 29.05px;
+     color: #000000;
+     padding-top: 10px;
+    
+   }
+   .delivery-cont1{
+     width:315px;
+     height:79px;
+     gap:5px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin-top: 30px;
+   
+   }
+   .Standard-delivery{
+     width:315px;
+     height:79px;
+     gap:5px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin-top: 20px;
+   }
+   .delivery-method-container label{
+     width:312px;
+     height:40px;
+     font-family:Inter;
+     font-weight:300px;
+     font-size:20px;
+     line-height:29.05px;
+     color: #000000;
+   }
+   .delivery-method-container input{
+     width:315px;
+     height:40px;
+     border: 1px solid #000000;
+     border-radius:20px;
+     background-color: transparent;
+   }
+   .delivery-method-container placeholder{
+   width: 180px;
+   height: 15px;
+   font-family: Inter;
+   font-size: 12px;
+   font-weight: 500;
+   line-height: 14.52px;
+   
+   }
+   .Shipping-details{
+     width:100%;
+     height:400px;
+     position: absolute;
+     top:801px;
+   }
+   
+   .Shipping-details h3{
+     font-family: Inter;
+     font-weight: 600;
+     font-size: 24px;
+     line-height: 29.05px;
+     color: #000000;
+    
+   }
+   
+   .payment-details{
+     width:100%;
+     height:700px;
+     position: absolute;
+     top:1201px;
+     padding-left: 15px;  
+   }
+   
+   .payment-details h3{
+     font-family: Inter;
+     font-weight: 600;
+     font-size: 24px;
+     line-height: 29.05px;
+     color: #000000;
+     
+   }
+   .Card-type{
+     width:315px;
+     height:70px;
+     gap:5px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin-top: 30px;
+   }
+   .Card-type label{
+     width:315px;
+     height:29px;
+     font-family:Inter;
+     font-weight:300px;
+     font-size:20px;
+     line-height:29.05px;
+     color: #000000;
+   }
+   .Card-type input{
+     width:315px;
+     height:40px;
+     border: 1px solid #000000;
+     border-radius:20px;
+     background-color: transparent;
+   }
+   .Card-detail{
+     width:100%;
+     height:300px;
+     display: flex;
+     flex-direction: column;
+     margin-top: 20px;
+   }
+   .Visa{
+     width:315px;
+     height:40px;
+     gap:10px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+   }
+   .Visa input{
+     width:315px;
+     height:40px;
+     border: 1px solid #000000;
+     border-radius:20px;
+     padding:5px,9px,5px,9px;
+     background-color: transparent;
+   }
+   
+   a{
+     width:460px;
+     height:22px;
+     font-family:Inter;
+     font-weight:400px;
+     font-size:18px;
+     line-height:21.78px;
+     color: #000000;
+     text-decoration:none;
+     padding-left: 5px;
+   
+   }
+   .cart-main-container{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  
+   }
+   .cart-summary-2{
+     width:100%;
+     height:248px;
+     border-bottom: 1px solid #677478;
+   
+   }
+   .cart-summary-3{
+     width:100%;
+     height:248px;
+     border-bottom: 1px solid #677478;
+     margin-top: -5px;
+     
+   }
+   .cart-summary-4{
+     width:100%;
+     height:248px;
+     border-bottom: 1px solid #677478;
+     margin-top: -5px;
+     
+   }
+   .cart-summary-5{
+     width:100%;
+     height:382px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+    
+   }
+   .cart-sub-container-2A{
+    width:100%;
+    height: 347px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;  
+  } 
+  .By-proceeding{
+    width:315px;
+     height:22px;
+     font-family:Inter;
+     font-weight:400px;
+     font-size:15px;
+     line-height:21.78px;
+     color: #000000;
+     text-decoration:none;
+     padding-left: 5px;
+     position: absolute;
+     top:300px;
+  }
+  .Cart-summary-container{
+    width:100%;
+    height:182px;
+    position: absolute;
+     top:20px;
+     left:0px;
+  }
+   .Zaraco-container-2{
+     width:100%;
+     height:156px;
+     /* gap:11px; */
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin-top: 10px;
+    
+   }
+   
+   .img-2{
+     width:166px;
+     height:126px;
+    
+    
+   }
+   .img-2 img{
+     width:100%;
+     height:100%;
+     border-radius: 20px;
+   }
+   .yellow-bag-description2{
+     width:166px;
+     height:138px;
+     gap:20px;
+     padding-left: 6px;
+    
+     
+   }
+   .h3-2{
+     width:211px;
+     height:22px;
+     font-family: Inter;
+     font-weight:500;
+     font-size:18px;
+     line-height:21.78px;
+     margin-bottom: 10px;
+   }
+   
+   .Art-2{
+     width:211px;
+     height:22px;
+     font-family: Inter;
+     font-weight:300;
+     font-size:18px;
+     line-height:21.78px;
+     color: #000000;
+     margin-bottom: 10px;
+   }
+   
+   .Colour2{
+     width:211px;
+     height:22px;
+     font-family: Inter;
+     font-weight:300;
+     font-size:18px;
+     line-height:29.05px;
+     color: #000000;
+     margin-bottom: 10px;
+   }
+   
+   .Quality2{
+     width:211px;
+     height:22px;
+     font-family: Inter;
+     font-weight:300;
+     font-size:18px;
+     line-height:21.78px;
+     color: #000000;
+   
+   }
+   .price-container-2{
+     width:77px;
+     height:22px;
+     margin-top: -155px;
+
+   }
+   .price-2{
+     font-family: Inter;
+     font-weight:700;
+     font-size:18px;
+     line-height:21.78px;
+     color: #000000;
+   }
+   .remove-container-2{
+     width:100%;
+     height:73px;
+     gap:90px;
+     display: flex;
+     justify-content:space-between;
+     align-items: center;
+     margin-top: 5px;
+    
+   }
+   
+   .add-con{
+     width:91px;
+     height:42px;
+     gap:10px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   }
+   .num-1{
+    width:49px;
+    height:42px;
+    border: 1px solid #000000;
+    padding: 10px, 20px, 10px, 20px;
+    border-radius: 20px;
+    gap:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 21.78px;
+  
+    
+   }
+   .sub{
+   width:13px;
+   height:22px;
+   font-family: Inter;
+   font-weight:600;
+   font-size:18px;
+   line-height:21.78px;
+   color: #000000;
+   
+   }
+   
+   .Remove-2{
+     width:110px;
+     height:42px;
+     padding:10px, 20px, 10px, 20px;
+     border-radius: 20px;
+     gap:10px;
+     background-color: #677478;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   .Remove-2 h2{
+     width:70px;
+     height:22px;
+     font-family: Inter;
+     font-weight:600;
+     font-size:15px;
+     line-height:21.78px;
+     color: #FFFFFF;
+     text-align: center;
+   }
+   .Checkout-1{
+     width: 100%;
+    height:49px;
+    background-color: #677478;
+    padding:10px, 20px, 10px, 20px;
+    border-radius:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:240px;
+    left:0px;
+   
+  }
+  
+  .Checkout-1 checkout-link{
+    width:113px;
+    height:29px;
+    font-family: Inter;
+    font-weight:600;
+    font-size:24px;
+    line-height:29.05px;
+    color: #FFFFFF;
+  }
 }
 

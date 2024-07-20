@@ -3,7 +3,7 @@
 
 .NewCollection-section{
 width:100%;
-height:3616px;
+height:3316px;
 position: relative;
 
 }
@@ -40,14 +40,14 @@ hr{
     margin-top: 36px;
 }
 
-.Zacro-description{
+.Zacro-description-1{
     width:588px;
     height:405px;
     Gap:40px;
 
 }
 
-.Zacro-description h1{
+.Zacro-description-1 h1{
     width:588px;
     height:48px;
     font-family: Inter;
@@ -57,7 +57,7 @@ hr{
     color: #000000;
 }
 
-.Zacro-description p{
+.Zacro-description-1 p{
     width:588px;
     height:268px;
     font-family: Inter;
@@ -66,8 +66,17 @@ hr{
     line-height: 29.05px;
     color: #000000;   
 }
-
-.Zacro-description a{
+.Zacro-description-1 h3{
+    width:118px;
+    height:82px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.52px;
+    color: #000000;  
+    display: none; 
+}
+.Zacro-description-1 a{
     width:134px;
     height:29px;
     font-family: Inter;
@@ -100,6 +109,53 @@ hr{
     align-items: center;
     
 }
+.Zacro-description-2{
+    width:588px;
+    height:405px;
+    Gap:40px;
+
+}
+
+.Zacro-description-2 h1{
+    width:588px;
+    height:48px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48.41px;
+    color: #000000;
+}
+
+.Zacro-description-2 p{
+    width:588px;
+    height:268px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.05px;
+    color: #000000;   
+}
+.Zacro-description-2 h3{
+    width:118px;
+    height:82px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.52px;
+    color: #000000;  
+    display: none; 
+}
+.Zacro-description-2 a{
+    width:134px;
+    height:29px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size:24px;
+    line-height:29.05px;
+    color:#000000;
+    gap: 15px;
+    text-decoration: none;
+}
 .Zacro-bag2{
     width:571px;
     height:480px;
@@ -121,7 +177,53 @@ hr{
     align-items: center;
     
 }
+.Zacro-description-3{
+    width:588px;
+    height:405px;
+    Gap:40px;
 
+}
+
+.Zacro-description-3 h1{
+    width:588px;
+    height:48px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48.41px;
+    color: #000000;
+}
+
+.Zacro-description-3 p{
+    width:588px;
+    height:268px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.05px;
+    color: #000000;   
+}
+.Zacro-description-3 h3{
+    width:118px;
+    height:82px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.52px;
+    color: #000000;  
+    display: none; 
+}
+.Zacro-description-3 a{
+    width:134px;
+    height:29px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size:24px;
+    line-height:29.05px;
+    color:#000000;
+    gap: 15px;
+    text-decoration: none;
+}
 .Popular-Items-h1{
     margin-top: 84px;
     margin-bottom: 50px;
@@ -277,12 +379,760 @@ hr{
 /* For ipad and tablet devices */
 @media (min-width: 481px) and (max-width: 947px){
   
-    
+    .NewCollection-section{
+        width:100%;
+        height:4600px;
+        position: relative;
+        
+        }
+        .New-Collection-h1{
+            width:489px;
+            height:48px;
+            margin: auto; 
+            margin-top: 26px;
+            text-align: center;
+        
+        }
+        .New-Collection-h1 h1{
+            width:488px;
+            height:48px;
+            font-family: Inter;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 48.41px;
+            color: #000000;
+        }
+        hr{
+            width: 100%;
+            border: 1px solid #667777;
+            margin-top: 36px;
+        }
+
+        .Collection-1{
+        width: 588px;
+        height: 925px;
+        gap: 125px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 64px;
+        position: relative;
+       
+        
+        }
+        .Zacro-description-1{
+            width:588px;
+            height:359px;
+            Gap:30px;
+            position: absolute;
+            top:500px;
+        }
+        
+        .Zacro-description-1 h1{
+            width:588px;
+            height:48px;
+            font-family: Inter;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 48.41px;
+            color: #000000;
+        }
+        
+        .Zacro-description-1 p{
+            width:588px;
+            height:268px;
+            font-family: Inter;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29.05px;
+            color: #000000;   
+        }
+        .Zacro-description-1 h3{
+            width:118px;
+            height:82px;
+            font-family: Inter;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14.52px;
+            color: #000000;  
+            display: none; 
+        }
+        .Zacro-description-1 a{
+            width:134px;
+            height:29px;
+            font-family: Inter;
+            font-weight: 600;
+            font-size:24px;
+            line-height:29.05px;
+            color:#000000;
+            gap: 15px;
+            text-decoration: none;
+        }
+        .Zacro-bag{
+            width:571px;
+            height:480px;
+        }
+        
+        .Zacro-bag img{
+            width:100%;
+            height:480px;;
+            border-radius:20px;
+        }
+        
+        .Collection-2{
+            width: 588px;
+            height:925px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            position: relative; 
+           
+        }
+        .Zacro-description-2{
+            width:588px;
+            height:359px;
+            Gap:30px;
+            position: absolute;
+            top:500px;
+        }
+        
+        .Zacro-description-2 h1{
+            width:588px;
+            height:48px;
+            font-family: Inter;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 48.41px;
+            color: #000000;
+        }
+        
+        .Zacro-description-2 p{
+            width:588px;
+            height:268px;
+            font-family: Inter;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29.05px;
+            color: #000000;   
+        }
+        .Zacro-description-2 h3{
+            width:118px;
+            height:82px;
+            font-family: Inter;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14.52px;
+            color: #000000;  
+            display: none; 
+        }
+        .Zacro-description-2 a{
+            width:134px;
+            height:29px;
+            font-family: Inter;
+            font-weight: 600;
+            font-size:24px;
+            line-height:29.05px;
+            color:#000000;
+            gap: 15px;
+            text-decoration: none;
+        }
+        .Zacro-bag2{
+            width:571px;
+            height:480px;
+        }
+        
+        .Zacro-bag2 img{
+            width:100%;
+            height:480px;
+            border-radius:20px;
+        }
+        
+        .Collection-3{
+            width: 588px;
+            height:925px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            
+        }
+        .Zacro-description-3{
+            width:588px;
+            height:359px;
+            Gap:30px;
+            position: absolute;
+            top:500px;
+        }
+        
+        .Zacro-description-3 h1{
+            width:588px;
+            height:48px;
+            font-family: Inter;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 48.41px;
+            color: #000000;
+        }
+        
+        .Zacro-description-3 p{
+            width:588px;
+            height:268px;
+            font-family: Inter;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29.05px;
+            color: #000000;   
+        }
+        .Zacro-description-3 h3{
+            width:118px;
+            height:82px;
+            font-family: Inter;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14.52px;
+            color: #000000;  
+            display: none; 
+        }
+        .Zacro-description-3 a{
+            width:134px;
+            height:29px;
+            font-family: Inter;
+            font-weight: 600;
+            font-size:24px;
+            line-height:29.05px;
+            color:#000000;
+            gap: 15px;
+            text-decoration: none;
+        }
+        .Popular-Items-h1{
+            margin-bottom: 50px;
+            Font-family:Inter;
+            font-weight:700;
+            font-size:40px;
+            line-height:48.41px;
+            color: #000000;
+            text-align: center;
+        }
+        .Popular-Items-Container{
+            width:788px;
+            height:925px;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 64px;
+            flex-wrap: wrap; 
+            margin: auto;
+        }
+        
+        .Item-1{
+            width:277px;
+            height:391px;
+            gap:36px;
+           
+        }
+        
+        .Zaraco-bag1{
+            width:256px;
+            height:225px;
+            text-align: center;   
+        }
+        
+        .Zaraco-bag1 img{
+            max-width:100%;
+            height: 225px;
+        }
+        .Zaraco-bag-description{
+            width:277px;
+            height:51px;
+            text-align: center;
+        }
+        .Zaraco-bag-description h3{
+            font-family: Inter;
+            font-weight:400;
+            font-size:24px;
+            line-height:29.05px;
+        }
+        .Zaraco-bag-description span{
+            font-family: Inter;
+            font-weight:700;
+            font-size:24px;
+            line-height:29.05px;
+        }
+        .Zaraco-bag-description p{
+            width:277px;
+            height:22px;
+            font-family: Inter;
+            font-weight:300;
+            font-size:16px;
+            line-height:21.78px;
+        }
+        .Zaraco-bag-addToCart{
+            width:225px;
+            height:69px;
+            padding:20px,30px,20px,30px;
+            gap:10px;
+            margin-top: 30px;
+            margin-left: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .Zaraco-bag-addToCart button{
+            width:220px;
+            height:69px;
+            font-family: Inter;
+            font-weight:600;
+            font-size:24px;
+            line-height:29.05px;
+            color:#FFFFFF;
+            background-color: #677478;
+            border-radius:20px;
+            padding:20px,30px,20px,30px;
+            border: none;
+        
+        }
+        .Item-2{
+            width:277px;
+            height:391px;
+            gap:36px;
+        
+        }
+        
+        .Item-3{
+            width:277px;
+            height:391px;
+            gap:36px;
+            
+        }
+        
+        .Item-4{
+            width:277px;
+            height:391px;
+            gap:36px;
+        
+        }
+        
+        .Instagram-photos{
+            width: 100%;
+            height:350px;
+            display: flex;
+            justify-content: space-around;
+            /* margin: auto; */
+            
+        }
+        
+        .Instagram-photo1{
+            width:231px;
+            height:294px;
+        }
+        .Instagram-photo1 img{
+            width:100%;
+            height: 294px;
+        }
+        
+        .Home-container2{
+            width: 671px;
+            height: 73px;
+            gap: 20px;
+            position: absolute;
+            top:4383px;
+          }
+          
+          .h2-1{
+            font-family: Playfair Display;
+            font-size: 45px;
+            line-height: 59.99px;
+            color: #677478;
+          }
+          
+          .Span-1{
+            width: 489px;
+            height: 41px;
+            font-family: Montserrat;
+            font-size: 34px;
+            line-height: 41.px;
+            color: #677478;
+          
+          }
+        
 }
 
 /*Mobile devices*/
 @media (min-width: 320px) and (max-width: 480px) {
-
+    .NewCollection-section{
+        width:100%;
+        height:3800px;
+        position: relative;
+        
+        }
+        .New-Collection-h1{
+            width:273px;
+            height:34px;
+            margin: auto; 
+            margin-top: 36px;
+            text-align: center;
+           
+        }
+        .New-Collection-h1 h1{
+            width:272px;
+            height:29px;
+            font-family: Inter;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29.05px;
+            color: #000000;
+        }
+        hr{
+            width: 100%;
+            border: 1px solid #667777;
+            margin-top: 36px;
+        }
+        .Collection-1{
+        width: 358px;
+        height: 201px;
+        gap: 30px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 64px;
+       
+        
+        }
+       
+        .Zacro-description-1{
+            width:159px;
+            height:166px;
+            Gap:20px; 
+           
+        }
+        
+        .Zacro-description-1 h1{
+            width:129px;
+            height:29px;
+            font-family: Inter;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29.05px;
+            color: #000000;
+        }
+        
+        .Zacro-description-1 p{
+            width:118px;
+            height:82px;
+            font-family: Inter;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14.52px;
+            color: #000000;   
+            display: none;
+        }
+        .Zacro-description-1 h3{
+            width:118px;
+            height:108px;
+            font-family: Inter;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14.52px;
+            color: #000000;   
+        }
+        .Zacro-description-1 a{
+            width:67px;
+            height:15px;
+            font-family: Inter;
+            font-weight: 600;
+            font-size:12px;
+            line-height:14.52px;
+            color:#000000;
+            gap: 15px;
+            text-decoration: none;
+     
+        }
+        .Zacro-bag{
+            width:149px;
+            height:151px;
+        }
+        
+        .Zacro-bag img{
+            width:100%;
+            height:151px;;
+            border-radius:20px;
+        }
+        
+        .Collection-2{
+            width: 358px;
+            height:201px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+   
+            
+        }
+        .Zacro-description-2{
+            width:159px;
+            height:166px;
+            Gap:50px;
+          
+            
+        }
+        .Zacro-description-2 h1{
+            width:129px;
+            height:29px;
+            font-family: Inter;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29.05px;
+            color: #000000;
+        }
+        
+        .Zacro-description-2 p{
+            width:118px;
+            height:82px;
+            font-family: Inter;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14.52px;
+            color: #000000;   
+            display: none;
+        }
+        .Zacro-description-2 h3{
+            width:118px;
+            height:108px;
+            font-family: Inter;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14.52px;
+            color: #000000;   
+        }
+        .Zacro-description-2 a{
+            width:67px;
+            height:15px;
+            font-family: Inter;
+            font-weight: 600;
+            font-size:12px;
+            line-height:14.52px;
+            color:#000000;
+            gap: 15px;
+            text-decoration: none;
+        }
+        .Zacro-bag2{
+            width:149px;
+            height:151px;
+        }
+        
+        .Zacro-bag2 img{
+            width:100%;
+            height:151px;
+            border-radius:20px;
+        }
+        
+        .Collection-3{
+            width: 358px;
+            height:201px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;   
+        }
+        .Zacro-description-3{
+            width:159px;
+            height:166px;
+            Gap:50px;
+            
+        }
+        .Zacro-description-3 h1{
+            width:129px;
+            height:29px;
+            font-family: Inter;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29.05px;
+            color: #000000;
+        }
+        
+        .Zacro-description-3 p{
+            width:118px;
+            height:82px;
+            font-family: Inter;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14.52px;
+            color: #000000;   
+            display: none;
+        }
+        
+        .Zacro-description-3 a{
+            width:67px;
+            height:15px;
+            font-family: Inter;
+            font-weight: 600;
+            font-size:12px;
+            line-height:14.52px;
+            color:#000000;
+            gap: 15px;
+            text-decoration: none;
+        }
+        .Zacro-description-3 h3{
+            width:118px;
+            height:108px;
+            font-family: Inter;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14.52px;
+            color: #000000;   
+        }
+        .Popular-Items-h1{
+           width:100%;
+           height:46px;
+           margin-top: 30px;
+            Font-family:Inter;
+            font-weight:700;
+            font-size:24px;
+            line-height:29.05px;
+            color: #000000;
+            text-align: center;
+           
+        }
+        .Popular-Items-Container{
+            width:100%;
+            height:1500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;      
+        }
+        
+        .Item-1{
+            width:277px;
+            height:391px;
+            gap:36px;   
+        }
+        
+        .Zaraco-bag1{
+            width:256px;
+            height:225px;
+            text-align: center;   
+        }
+        
+        .Zaraco-bag1 img{
+            max-width:100%;
+            height: 225px;
+        }
+        .Zaraco-bag-description{
+            width:277px;
+            height:51px;
+            text-align: center;
+        }
+        .Zaraco-bag-description h3{
+            font-family: Inter;
+            font-weight:400;
+            font-size:24px;
+            line-height:29.05px;
+        }
+        .Zaraco-bag-description span{
+            font-family: Inter;
+            font-weight:700;
+            font-size:20px;
+            line-height:29.05px;
+        }
+        .Zaraco-bag-description p{
+            width:277px;
+            height:22px;
+            font-family: Inter;
+            font-weight:300;
+            font-size:16px;
+            line-height:21.78px;
+        }
+        .Zaraco-bag-addToCart{
+            width:225px;
+            height:69px;
+            padding:20px,30px,20px,30px;
+            gap:10px;
+            margin-top: 30px;
+            margin-left: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .Zaraco-bag-addToCart button{
+            width:220px;
+            height:69px;
+            font-family: Inter;
+            font-weight:600;
+            font-size:20px;
+            line-height:29.05px;
+            color:#FFFFFF;
+            background-color: #677478;
+            border-radius:20px;
+            padding:20px,30px,20px,30px;
+            border: none;
+        
+        }
+        .Item-2{
+            width:277px;
+            height:391px;
+            gap:36px;
+        
+        }
+        
+        .Item-3{
+            width:277px;
+            height:391px;
+            gap:36px;
+            
+        }
+        
+        .Item-4{
+            width:277px;
+            height:391px;
+            gap:36px;
+        
+        }
+        
+        .Instagram-photos{
+            width: 100%;
+            height:1000px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+    
+        }
+        
+        .Instagram-photo1{
+            width:234px;
+            height:311px;
+        }
+        .Instagram-photo1 img{
+            width:100%;
+            height: 311px;
+        }
+        
+        .Home-container2{
+            width: 100%;
+            height: 73px;
+            gap: 20px;
+            
+          }
+          
+          .h2-1{
+            font-family: Playfair Display;
+            font-size: 55px;
+            line-height: 73.32px;
+            color: #677478;
+          }
+          
+          .Span-1{
+            width: 575px;
+            height: 49px;
+            font-family: Montserrat;
+            font-size: 40px;
+            line-height: 48.76px;
+            color: #677478;
+          
+          }
 
     
 }

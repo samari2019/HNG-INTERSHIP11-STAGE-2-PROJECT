@@ -252,7 +252,7 @@ function Checkout() {
                                     <div className="Checkout-1">
                                         <h3><NavLink className="NavLink checkout-link" to="">Pay Now </NavLink></h3>
                                     </div>
-                                    <a href="">By proceeding, I agree to the terms and conditions</a>
+                                    <a href="" className="By-proceeding">By proceeding, I agree to the terms and conditions</a>
                                 </div>
                             </div>
                         </div>

@@ -30,11 +30,11 @@ function Home() {
                 </div>
 
                 {/* second container */}
-                <div className="Home-container2">
+                {/* <div className="Home-container2">
                     <h2 className="h2-1">Hawvey
                     <span className="Span-1"> Carry elegance everywhere</span>
                     </h2>
-                </div>
+                </div> */}
             </section>
         </>
     )

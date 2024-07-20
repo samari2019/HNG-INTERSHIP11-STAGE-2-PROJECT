@@ -1,5 +1,5 @@
 import "./newCollection.css";
-
+// import "../index.css";
 
 function NewCollection() {
     return (
@@ -13,7 +13,7 @@ function NewCollection() {
 
                 {/* First Collection Container */}
                 <div className="Collection-1">
-                    <div className="Zacro-description">
+                    <div className="Zacro-description-1">
                         <h1>Zacro bag</h1>
                         <p>Sed et iaculis semper purus in risus egestas. Amet ultrices eu mattis
                             massa erat quam nisi gravida. Faucibus viverra imperdiet sem risus auctor
@@ -21,6 +21,8 @@ function NewCollection() {
                               In eget morbi ut arcu amet. Feugiat proin dapibus dolor posuere tincidunt sodales diam.
                               Quam orci eu odio interdum. Nulla cum amet tincidunt id. Massa sapien arcu arcu fermentum.
                           Tortor in etiam elit sagittis.</p>
+                        <h3>Sed et iaculis semper purus in risus egestas. Amet ultrices eu mattis
+                            massa erat quam nisi gravida sem risus.</h3>
 
                         <a href="">Shop Now</a>
                     </div>
@@ -37,7 +39,7 @@ function NewCollection() {
                         <img src="../images/Zacro bag2.jpg" alt="" />
                     </div>
 
-                    <div className="Zacro-description">
+                    <div className="Zacro-description-2">
                         <h1>Zacro bag</h1>
                         <p>Sed et iaculis semper purus in risus egestas. Amet ultrices eu mattis
                             massa erat quam nisi gravida. Faucibus viverra imperdiet sem risus auctor
@@ -45,6 +47,8 @@ function NewCollection() {
                               In eget morbi ut arcu amet. Feugiat proin dapibus dolor posuere tincidunt sodales diam.
                               Quam orci eu odio interdum. Nulla cum amet tincidunt id. Massa sapien arcu arcu fermentum.
                           Tortor in etiam elit sagittis.</p>
+                        <h3>Sed et iaculis semper purus in risus egestas. Amet ultrices eu mattis
+                            massa erat quam nisi gravida sem risus.</h3>
 
                         <a href="">Shop Now</a>
                     </div>
@@ -54,7 +58,7 @@ function NewCollection() {
                 {/* Third Collection Container */}
                 <div className="Collection-3">
 
-                    <div className="Zacro-description">
+                    <div className="Zacro-description-3">
                         <h1>Zacro bag</h1>
                         <p>Sed et iaculis semper purus in risus egestas. Amet ultrices eu mattis
                             massa erat quam nisi gravida. Faucibus viverra imperdiet sem risus auctor
@@ -62,6 +66,8 @@ function NewCollection() {
                               In eget morbi ut arcu amet. Feugiat proin dapibus dolor posuere tincidunt sodales diam.
                               Quam orci eu odio interdum. Nulla cum amet tincidunt id. Massa sapien arcu arcu fermentum.
                           Tortor in etiam elit sagittis.</p>
+                        <h3>Sed et iaculis semper purus in risus egestas. Amet ultrices eu mattis
+                            massa erat quam nisi gravida sem risus.</h3>
 
                         <a href="">Shop Now</a>
                     </div>
